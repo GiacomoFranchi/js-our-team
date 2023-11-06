@@ -17,4 +17,21 @@ Stampare le stesse informazioni su DOM sottoforma di stringhe
 **BONUS 1:**
 Trasformare la stringa foto in una immagine effettiva
 **BONUS 2:**
-Organizzare i singoli membri in card/schede. Se non vi sentite particolarmente creativi, potete prendere uno spunto dallo screenshot allegato.
+Organizzare i singoli membri in card/schede.
+
+## Svolgimento
+**Raccolta dati:**
+1. Creare un array di objects contenente nome ruolo e immagine di ogni membro del team
+2. creare una variabile row collegata alla classe row in HTML
+
+**Logica del programma:**
+1. Creare un ciclo for con i = 0 e i < della lunghezza dell'array.
+2. Associare alla variabile curMember gli objects contenuti nell'array
+3. Associare a teamMemb la srtinga contenente la struttura HTML della card che vogliamo ottenere.
+4. Associare a:
+    - img la stinga di contenente il link dell'immagine "imgMember"
+    - h5 la stringa contenente il nome "nome"
+    - p la stinga contenente il ruolo "ruolo"
+
+## Output
+Associare a row in HTML la variabile teemMemb così da visualizzare le card in pagina

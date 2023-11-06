@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body, .card-body{
+    background-color: sandybrown;
+}
+
+.container{
+    width: 100%;
+    text-align: center;
+    background-color:cadetblue
+}
+
+h1{
+    color:sandybrown;
+}
+
+.card{
+    border-color: sandybrown;
+}
